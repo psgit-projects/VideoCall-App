@@ -8,7 +8,7 @@ const Video = () => {
     let myMeeting = async (element) => {
   
    // generate Kit Token
-   const appID = APP_ID;
+   const appID = YOUR_APP_ID;
    const serverSecret = "Secret_CODE";
    const kitToken =  ZegoUIKitPrebuilt.generateKitTokenForTest(appID, serverSecret, roomId, Date.now().toString(),"ps-project");
   
